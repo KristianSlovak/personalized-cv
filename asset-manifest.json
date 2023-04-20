@@ -1,16 +1,14 @@
 {
   "files": {
-    "main.css": "/Personalized-CV/static/css/main.073c9b0a.css",
-    "main.js": "/Personalized-CV/static/js/main.d5b6d8b2.js",
-    "static/js/787.c8770b97.chunk.js": "/Personalized-CV/static/js/787.c8770b97.chunk.js",
-    "static/media/logo.svg": "/Personalized-CV/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/Personalized-CV/static/css/main.57778f7f.css",
+    "main.js": "/Personalized-CV/static/js/main.de801321.js",
+    "static/media/KristianSlovak.png": "/Personalized-CV/static/media/KristianSlovak.13d096935c9a858e9bb7.png",
     "index.html": "/Personalized-CV/index.html",
-    "main.073c9b0a.css.map": "/Personalized-CV/static/css/main.073c9b0a.css.map",
-    "main.d5b6d8b2.js.map": "/Personalized-CV/static/js/main.d5b6d8b2.js.map",
-    "787.c8770b97.chunk.js.map": "/Personalized-CV/static/js/787.c8770b97.chunk.js.map"
+    "main.57778f7f.css.map": "/Personalized-CV/static/css/main.57778f7f.css.map",
+    "main.de801321.js.map": "/Personalized-CV/static/js/main.de801321.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.d5b6d8b2.js"
+    "static/css/main.57778f7f.css",
+    "static/js/main.de801321.js"
   ]
 }
