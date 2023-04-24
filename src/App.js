@@ -11,6 +11,11 @@ function App() {
   const aboutRef = useRef(null);
   const footerRef = useRef(null);
   const [scrollPosition, setScrollPosition] = useState(0);
+  const [isAboutVisible, setIsAboutVisible] = useState(false);
+
+  // const isAboutOnScreen = () => {
+
+  // }
 
   const scrollToAboutRef = () => {
     aboutRef.current.scrollIntoView({ behavior: "smooth" });
@@ -25,18 +30,35 @@ function App() {
   };
 
   useEffect(() => {
+    const cleanupRef = aboutRef.current;
+
     const handleScroll = () => {
       setScrollPosition(window.scrollY);
     };
 
     window.addEventListener("scroll", handleScroll);
 
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        setIsAboutVisible(entry.isIntersecting);
+      },
+      { threshold: 0.5 }
+    );
+
+    if (aboutRef.current) {
+      observer.observe(aboutRef.current);
+    }
+
     return () => {
+      if (cleanupRef) {
+        observer.unobserve(cleanupRef);
+      }
       window.removeEventListener("scroll", handleScroll);
     };
-  }, []);
+  }, [aboutRef]);
+
   return (
-    <div ref={appRef} className="min-h-screen w-full flex flex-col ">
+    <div ref={appRef} className="min-h-screen max-w-screen flex flex-col ">
       <NavBar
         scrollToHelloRef={scrollToHelloRef}
         scrollToAboutRef={scrollToAboutRef}
@@ -53,7 +75,7 @@ function App() {
         <Hello helloRef={helloRef} />
         <MyName />
       </div>
-      <About aboutRef={aboutRef} />
+      <About aboutRef={aboutRef} isAboutVisible={isAboutVisible} />
       <Footer footerRef={footerRef} />
     </div>
   );

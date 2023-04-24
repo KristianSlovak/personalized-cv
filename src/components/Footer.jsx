@@ -34,18 +34,18 @@ function Footer({ footerRef }) {
     <div
       ref={footerRef}
       id="Links"
-      className="w-full flex items-center gap-3 bg-zinc-300 h-52 z-20"
+      className="w-screen flex flex-col md:flex-row items-center gap-3 bg-zinc-300 h-52 md:h-52 z-20"
     >
-      <div className="flex pl-10 gap-3 flex-col w-1/2">
-        <h4 className="text-2xl">Kristián Slovák</h4>
-        <p>
+      <div className="flex px-8 md:px-10 gap-3 flex-col items-center md:items-start w-screen md:w-1/2">
+        <h4 className="text-base md:text-2xl font-semibold">Kristián Slovák</h4>
+        <p className="text-xs md:text-base">
           My name is Kristián Slovák and this is my personalized CV webpage.
         </p>
       </div>
-      <div className="w-1/2 flex items-center flex-col pl-10 gap-3">
-        <h4 className="text-2xl">Links & Contact</h4>
-        <div className="flex">
-          <ul className="w-1/2 flex flex-col pl-10 gap-3">
+      <div className="w-screen md:w-1/2 flex items-center flex-col px-8 md:px-10 gap-3">
+        <h4 className="text-base md:text-2xl font-semibold">Links & Contact</h4>
+        <div className="flex flex-col md:flex-row">
+          <ul className="w-screen md:w-1/2 flex flex-row md:flex-col pl-10 gap-3 text-xs md:text-base">
             <li className="flex hover:text-sky-600 hover:scale-125 transition duration-100 w-fit">
               <img
                 src={require("../assets/icons8-linkedin-24.png")}
@@ -72,14 +72,13 @@ function Footer({ footerRef }) {
               </a>
             </li>
           </ul>
-          <ul className=" w-1/2 flex flex-col pl-10 gap-2">
+          <ul className="w-screen md:w-1/2 flex flex-col-reverse md:flex-col pl-10 gap-1 md:gap-2 relative text-xs md:text-base">
             <li className="flex hover:cursor-pointer hover:text-sky-600 transition duration-100 w-fit">
               <img src={require("../assets/icons8-cv-24.png")} alt="CV" />
               <p>Download CV</p>
             </li>
             <li
               onClick={handleCopy}
-              ref={emailRef}
               onMouseEnter={handleHidden}
               onMouseLeave={handleHidden}
               className="flex items-center hover:cursor-pointer hover:text-sky-600 transition duration-100 w-fit"
@@ -89,11 +88,11 @@ function Footer({ footerRef }) {
                 alt="Mail"
                 className="w-6 h-6"
               />
-              <p>Email: slovak.kristian1@gmail.com</p>
+              <p ref={emailRef}>Email: slovak.kristian1@gmail.com</p>
             </li>
             <p
               ref={pRef}
-              className={`text-white ${
+              className={`text-white absolute bottom-0 ${
                 clicked
                   ? "bg-emerald-400 bg-opacity-20"
                   : "bg-black bg-opacity-20"

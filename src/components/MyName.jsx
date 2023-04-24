@@ -12,7 +12,9 @@ function MyName() {
     <div className="z-20 text-black gap-3 mt-4 flex flex-col absolute items-center justify-center">
       <span
         className={`transition duration-1000 ease-in-out ${
-          isMyNameVisible ? "h-full opacity-100" : "h-0 opacity-0"
+          isMyNameVisible
+            ? "h-full opacity-100"
+            : "h-0 opacity-0 translate-y-full"
         }`}
       >
         <h1 className="bg-white italic p-2 text-xl font-semibold">
@@ -21,7 +23,9 @@ function MyName() {
       </span>
       <span
         className={`transition duration-1000 delay-500 ease-in-out ${
-          isMyNameVisible ? "h-full opacity-100" : "h-0 opacity-0"
+          isMyNameVisible
+            ? "h-full opacity-100"
+            : "h-0 opacity-0 translate-y-full"
         }`}
       >
         <h1 className="bg-white italic text-lg p-2">
