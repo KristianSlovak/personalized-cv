@@ -3,10 +3,10 @@ import React from "react";
 function About({ aboutRef, isAboutVisible }) {
   console.log(isAboutVisible);
   return (
-    <div className="w-screen h-screen flex flex-col md:flex-row" ref={aboutRef}>
+    <div className="w-full h-screen flex flex-col md:flex-row" ref={aboutRef}>
       <div
         id="About"
-        className="w-screen md:w-1/2 h-1/2 md:h-screen flex flex-col md:flex-row items-center justify-end bg-gradient-to-br from-blue-500 to-cyan-500 gap-24"
+        className="w-full md:w-1/2 h-1/2 md:h-screen flex flex-col md:flex-row items-center justify-end bg-gradient-to-br from-blue-500 to-cyan-500 gap-24"
       >
         <div className="flex flex-col items-start justify-center w-5/6 px-2 md:px-20 gap-5 md:gap-24 bg-white h-5/6 relative">
           <img
@@ -52,7 +52,7 @@ function About({ aboutRef, isAboutVisible }) {
           </div>
         </div>
       </div>
-      <div className="w-screen md:w-1/2 h-1/2 md:h-screen flex flex-col md:flex-row items-center justify-start bg-blue-100 gap-5 md:gap-24">
+      <div className="w-full md:w-1/2 h-1/2 md:h-screen flex flex-col md:flex-row items-center justify-start bg-blue-100 gap-5 md:gap-24">
         <div className="w-5/6 flex flex-col gap-2 md:gap-24 items-start px-2 md:px-20 justify-center bg-white h-5/6 relative">
           <img
             src={require("../assets/CSS3.png")}

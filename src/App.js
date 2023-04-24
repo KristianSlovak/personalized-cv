@@ -58,7 +58,7 @@ function App() {
   }, [aboutRef]);
 
   return (
-    <div ref={appRef} className="min-h-screen max-w-screen flex flex-col ">
+    <div ref={appRef} className="min-h-screen w-full flex flex-col ">
       <NavBar
         scrollToHelloRef={scrollToHelloRef}
         scrollToAboutRef={scrollToAboutRef}

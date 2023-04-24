@@ -3,7 +3,7 @@ import React from "react";
 function NavBar({ scrollToAboutRef, scrollToHelloRef, scrollToFooterRef }) {
   return (
     <div
-      className="fixed flex flex-row w-screen bg-white font-light text-xs px-1 md:px-2 h-12 md:h-16 
+      className="fixed flex flex-row w-full bg-white font-light text-xs px-1 md:px-2 h-12 md:h-16 
       items-center md:text-base z-50"
     >
       <p className="w-1/3 p-1">Kristián Slovák</p>
