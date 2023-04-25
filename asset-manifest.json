@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Personalized-CV/static/css/main.00e407a0.css",
-    "main.js": "/Personalized-CV/static/js/main.9e59d6dc.js",
+    "main.css": "/Personalized-CV/static/css/main.f3e710cf.css",
+    "main.js": "/Personalized-CV/static/js/main.0ae39404.js",
     "static/media/KristianSlovak.png": "/Personalized-CV/static/media/KristianSlovak.13d096935c9a858e9bb7.png",
     "static/media/react.png": "/Personalized-CV/static/media/react.f6b89d232c9bc9f828e5.png",
     "static/media/CSS3.png": "/Personalized-CV/static/media/CSS3.4e67641bb68b658d9b2b.png",
     "static/media/javascript.png": "/Personalized-CV/static/media/javascript.c82f51737aaa6831750c.png",
     "static/media/HTML.png": "/Personalized-CV/static/media/HTML.d50fc7a86b6f3764610b.png",
     "index.html": "/Personalized-CV/index.html",
-    "main.00e407a0.css.map": "/Personalized-CV/static/css/main.00e407a0.css.map",
-    "main.9e59d6dc.js.map": "/Personalized-CV/static/js/main.9e59d6dc.js.map"
+    "main.f3e710cf.css.map": "/Personalized-CV/static/css/main.f3e710cf.css.map",
+    "main.0ae39404.js.map": "/Personalized-CV/static/js/main.0ae39404.js.map"
   },
   "entrypoints": [
-    "static/css/main.00e407a0.css",
-    "static/js/main.9e59d6dc.js"
+    "static/css/main.f3e710cf.css",
+    "static/js/main.0ae39404.js"
   ]
 }
