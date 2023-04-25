@@ -51,7 +51,11 @@ function Footer({ footerRef }) {
                 src={require("../assets/icons8-linkedin-24.png")}
                 alt="LinkedIn"
               />
-              <a href="https://www.linkedin.com/in/kristi%C3%A1n-slov%C3%A1k-58870124a/">
+              <a
+                href="https://www.linkedin.com/in/kristi%C3%A1n-slov%C3%A1k-58870124a/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 LinkedIn
               </a>
             </li>
@@ -60,14 +64,24 @@ function Footer({ footerRef }) {
                 src={require("../assets/icons8-github-24.png")}
                 alt="GitHub"
               />
-              <a href="https://github.com/KristianSlovak">GitHub</a>
+              <a
+                href="https://github.com/KristianSlovak"
+                target="_blank"
+                rel="noreferrer"
+              >
+                GitHub
+              </a>
             </li>
             <li className="flex hover:text-sky-600 hover:scale-125 transition duration-100 w-fit">
               <img
                 src={require("../assets/icons8-codewars-24.png")}
                 alt="codewars"
               />
-              <a href="https://www.codewars.com/users/KristianSlovak">
+              <a
+                href="https://www.codewars.com/users/KristianSlovak"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Codewars
               </a>
             </li>
@@ -75,7 +89,11 @@ function Footer({ footerRef }) {
           <ul className="w-full md:w-1/2 flex flex-col-reverse md:flex-col pl-10 gap-1 md:gap-2 relative text-xs md:text-base">
             <li className="flex hover:cursor-pointer hover:text-sky-600 transition duration-100 w-fit">
               <img src={require("../assets/icons8-cv-24.png")} alt="CV" />
-              <p>Download CV</p>
+              <p>
+                <a href="https://cdn.discordapp.com/attachments/1069277707730427964/1078713095452626995/Kristian_Slovak.pdf">
+                  Download CV
+                </a>
+              </p>
             </li>
             <li
               onClick={handleCopy}

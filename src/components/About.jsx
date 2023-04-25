@@ -84,37 +84,43 @@ function About({ aboutRef, isAboutVisible }) {
             <div>
               <h4>Projects</h4>
             </div>
-            <div>
-              <div>
+            <ul className="flex flex-col">
+              <li>
                 <a
                   href="https://weather-app-nu-steel.vercel.app/"
-                  className={`hover:text-sky-600 text-xs md:text-base text-black font-light transition duration-1000 delay-1500 ease-in-out ${
+                  target="_blank"
+                  rel="noreferrer"
+                  className={`group text-xs md:text-base font-light transition duration-1000 delay-1500 ease-in-out ${
                     isAboutVisible
                       ? "h-full opacity-100"
                       : "h-0 opacity-0 translate-y-full"
                   }`}
                 >
-                  Weather App
+                  <p className="text-black group-hover:text-sky-600">
+                    Weather App
+                  </p>
                 </a>
-              </div>
-              <div>
+              </li>
+              <li>
                 <a
                   href="https://KristianSlovak.github.io/Personalized-CV"
-                  className={`hover:text-sky-600 text-black font-light transition duration-1000 delay-2000 ease-in-out text-xs md:text-base ${
+                  className={`group font-light text-xs md:text-base transition duration-1000 delay-2000 ease-in-out${
                     isAboutVisible
                       ? "h-full opacity-100"
                       : "h-0 opacity-0 translate-y-full"
                   }`}
                 >
-                  Personal CV Page (this page)
+                  <p className="text-black group-hover:text-sky-600">
+                    Personal CV Page (this page)
+                  </p>
                 </a>
-              </div>
-            </div>
+              </li>
+            </ul>
           </div>
           <div className="flex flex-col gap-3 text-sm md:text-base">
             <h4>HOBBIES</h4>
             <p
-              className={`font-light transition duration-1000 delay-2500 ease-in-out text-xs md:text-base z-10 ${
+              className={`font-light text-xs md:text-base z-10 transition duration-1000 delay-2500 ease-in-out${
                 isAboutVisible
                   ? "h-full opacity-100"
                   : "h-0 opacity-0 translate-y-full"
