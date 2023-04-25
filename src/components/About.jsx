@@ -12,12 +12,12 @@ function About({ aboutRef, isAboutVisible }) {
           <img
             src={require("../assets/react.png")}
             alt="react"
-            className="md:absolute md:w-16 md:h-16 absolute left-2 top-5 md:top-2 w-9 h-9"
+            className="md:absolute md:left-2 md:bottom-2 md:w-16 md:h-16 top-2 right-2 absolute w-9 h-9"
           />
           <img
             src={require("../assets/javascript.png")}
             alt="Javascript"
-            className="md:absolute md:left-2 md:bottom-2 md:w-16 md:h-16 right-2 bottom-72 absolute w-10 h-10"
+            className="md:absolute md:left-2 md:top-auto md:bottom-2 md:w-16 md:h-16 left-2 top-2 absolute w-9 h-9"
           />
           <img
             src={require("../assets/KristianSlovak.png")}
@@ -57,12 +57,12 @@ function About({ aboutRef, isAboutVisible }) {
           <img
             src={require("../assets/CSS3.png")}
             alt="CSS"
-            className="absolute bottom-2 right-2 w-8 md:w-16 h-10 md:h-20"
+            className="absolute bottom-2 right-2 w-9 md:w-16 h-9 md:h-20"
           />
           <img
             src={require("../assets/HTML.png")}
             alt="HTML"
-            className="absolute md:right-2 md:top-2 bottom-2 left-auto w-8 md:w-16 h-8 md:h-16 z-0"
+            className="absolute md:right-2 md:top-2 bottom-2 left-auto w-9 md:w-16 h-9 md:h-16 z-0"
           />
           <div className="flex flex-col gap-2 text-sm md:text-base">
             <h4>MOTIVATION</h4>
