@@ -86,7 +86,7 @@ function Footer({ footerRef }) {
               </a>
             </li>
           </ul>
-          <ul className="w-full md:w-1/2 flex flex-col-reverse md:flex-col pl-10 gap-1 md:gap-2 relative text-xs md:text-base">
+          <ul className="w-full md:w-1/2 flex flex-col md:flex-col pl-10 gap-1 md:gap-2 relative text-xs md:text-base">
             <li className="flex hover:cursor-pointer hover:text-sky-600 transition duration-100 w-fit">
               <img src={require("../assets/icons8-cv-24.png")} alt="CV" />
               <p>
