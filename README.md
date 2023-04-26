@@ -8,4 +8,3 @@ Display relevant information about me
 ## Technologies used  
 Tailwind, React, HTML, JavaScript  
 [Visit my CV page](https://kristianslovak.github.io/Personalized-CV/)  
-[This project repository](https://github.com/KristianSlovak/Personalized-CV)
