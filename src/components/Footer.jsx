@@ -1,5 +1,4 @@
-import React from "react";
-import { useRef, useState } from "react";
+import React, { useRef, useState } from "react";
 
 function Footer({ footerRef }) {
   const emailRef = useRef(null);
@@ -90,7 +89,7 @@ function Footer({ footerRef }) {
             <li className="flex hover:cursor-pointer hover:text-sky-600 transition duration-100 w-fit">
               <img src={require("../assets/icons8-cv-24.png")} alt="CV" />
               <p>
-                <a href="https://cdn.discordapp.com/attachments/1069277707730427964/1078713095452626995/Kristian_Slovak.pdf">
+                <a href="https://drive.google.com/file/d/1RhyAzcvaPLyMAve-9C-yL-1wSl-nhX8L/view?usp=sharing">
                   Download CV
                 </a>
               </p>
@@ -106,7 +105,7 @@ function Footer({ footerRef }) {
                 alt="Mail"
                 className="w-6 h-6"
               />
-              <p ref={emailRef}>Email: slovak.kristian1@gmail.com</p>
+              <p ref={emailRef}>slovak.kristian1@gmail.com</p>
             </li>
             <p
               ref={pRef}
