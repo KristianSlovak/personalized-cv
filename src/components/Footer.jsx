@@ -89,7 +89,7 @@ function Footer({ footerRef }) {
             <li className="flex hover:cursor-pointer hover:text-sky-600 transition duration-100 w-fit">
               <img src={require("../assets/icons8-cv-24.png")} alt="CV" />
               <p>
-                <a href="https://drive.google.com/file/d/1RhyAzcvaPLyMAve-9C-yL-1wSl-nhX8L/view?usp=sharing">
+                <a href="https://drive.google.com/file/d/1MYmhD4LNLwZQPzhcjm8IsuY3PpCpSj8G/view?usp=sharing">
                   Download CV
                 </a>
               </p>
