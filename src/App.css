@@ -1,0 +1,25 @@
+ul{
+    list-style-type: none;
+}
+
+body.light {
+    background-color: #fff;
+    color: #222;
+}
+
+body.dark{
+    color: #eee;
+    background-color:  #121212;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        color: #eee;
+        background-color: #121212;
+    }
+    body.light-theme {
+        color: #222;
+        background-color: #fff;
+    }
+
+}

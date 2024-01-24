@@ -1,0 +1,16 @@
+.main-container {
+    margin: 0 2em 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-list-right {
+    display:flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.navbar-img {
+    height: 20px;
+    width: 20px;
+}
