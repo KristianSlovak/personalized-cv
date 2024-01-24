@@ -1,0 +1,2 @@
+ul{list-style-type:none}body.light{background-color:#fff;color:#222}body.dark{background-color:#121212;color:#eee}@media (prefers-color-scheme:dark){body{background-color:#121212;color:#eee}body.light-theme{background-color:#fff;color:#222}}.main-container{margin:0 2em}.main-container,.navbar-list-right{display:flex;justify-content:space-between}.navbar-list-right{gap:8px}.navbar-img{height:20px;width:20px}
+/*# sourceMappingURL=main.4eb91dd5.css.map*/
