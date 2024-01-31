@@ -7,11 +7,21 @@ function NavBar() {
     <div className="main-container">
       <p className="navbar-p">Kristián Slovák</p>
       <div className="navbar-list-right">
-        <p>Home</p>
-        <p>Work</p>
-        <p>About</p>
-        <p>Resume</p>
-        <p>Contact</p>
+        <a name="main-div" href="main-div">
+          Home
+        </a>
+        <a name="main-div" href="main-div">
+          Work
+        </a>
+        <a name="main-div" href="main-div">
+          About
+        </a>
+        <a name="main-div" href="main-div">
+          Resume
+        </a>
+        <a name="main-div" href="main-div">
+          Contact
+        </a>
         <HandleDarkModeButton />
       </div>
     </div>
