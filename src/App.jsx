@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import Contact from "./components/Contact/Contact";
 import NavBar from "./components/Navbar/NavBar";
 import Projects from "./components/Projects/Projects";
 
@@ -8,81 +9,30 @@ function App() {
     <div id="main-div" className="container">
       <div className="border-wrap"></div>
       <NavBar />
-      <h1>Hello 👋</h1>
-      <h1>I'm Kristián Slovák - curious</h1>
-      <h1>designer and developer</h1>
-      <h1>based in Piešťany, Slovakia</h1>
-      <div className="links">
-        <a href="something">Github</a>
-        <a href="something">LinkedIn</a>
-        <a href="something">Twitter</a>
-        <a href="something">Blog</a>
-        <a href="something">Email</a>
+      <div className="introduction">
+        <h1>Hello 👋</h1>
+        <h1>I'm Kristián Slovák - curious</h1>
+        <h1>designer and developer</h1>
+        <h1>based in Piešťany, Slovakia</h1>
       </div>
+      <Contact />
       <div className="projects">
         <h1>Projects</h1>
         <Projects />
       </div>
-      <p className="random">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero pariatur
-        corporis quaerat voluptatum eos tempora temporibus nisi voluptates sed,
-        exercitationem sequi dolore culpa incidunt accusamus, quasi unde
-        reprehenderit ea molestias.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero pariatur
-        corporis quaerat voluptatum eos tempora temporibus nisi voluptates sed,
-        exercitationem sequi dolore culpa incidunt accusamus, quasi unde
-        reprehenderit ea molestias.
-      </p>
-      <p className="random">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero pariatur
-        corporis quaerat voluptatum eos tempora temporibus nisi voluptates sed,
-        exercitationem sequi dolore culpa incidunt accusamus, quasi unde
-        reprehenderit ea molestias.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero pariatur
-        corporis quaerat voluptatum eos tempora temporibus nisi voluptates sed,
-        exercitationem sequi dolore culpa incidunt accusamus, quasi unde
-        reprehenderit ea molestias.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero pariatur
-        corporis quaerat voluptatum eos tempora temporibus nisi voluptates sed,
-        exercitationem sequi dolore culpa incidunt accusamus, quasi unde
-        reprehenderit ea molestias.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero pariatur
-        corporis quaerat voluptatum eos tempora temporibus nisi voluptates sed,
-        exercitationem sequi dolore culpa incidunt accusamus, quasi unde
-        reprehenderit ea molestias.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero pariatur
-        corporis quaerat voluptatum eos tempora temporibus nisi voluptates sed,
-        exercitationem sequi dolore culpa incidunt accusamus, quasi unde
-        reprehenderit ea molestias.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero pariatur
-        corporis quaerat voluptatum eos tempora temporibus nisi voluptates sed,
-        exercitationem sequi dolore culpa incidunt accusamus, quasi unde
-        reprehenderit ea molestias.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero pariatur
-        corporis quaerat voluptatum eos tempora temporibus nisi voluptates sed,
-        exercitationem sequi dolore culpa incidunt accusamus, quasi unde
-        reprehenderit ea molestias.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero pariatur
-        corporis quaerat voluptatum eos tempora temporibus nisi voluptates sed,
-        exercitationem sequi dolore culpa incidunt accusamus, quasi unde
-        reprehenderit ea molestias.
-      </p>
+      <div className="about-section">
+        <h2>About</h2>
+        <p>
+          Before becoming a Green Fox Academy student, I worked in a pet shop
+          warehouse. I sought to change careers because I did not see a way for
+          my personal and career growth. I have always enjoyed working with
+          computers in various ways, including building them and learning how
+          they operate. GFA strengthened my enthusiasm for coding, as I enjoy
+          problem-solving, critical thinking, and gaining knowledge of new
+          technologies.
+        </p>
+      </div>
+      <Contact />
       <div className="border-wrap-bottom"></div>
     </div>
   );
