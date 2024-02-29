@@ -1,7 +1,13 @@
 .contact {
-    margin: 2.5rem 2rem 0;
+    margin-top: 0.5rem;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     width: 30%;
+    gap: 8px;
+    margin-left: -0.75rem;
+}
+
+.contact-link {
+    padding: 0.25rem;
+    margin: 0.25rem;
 }
