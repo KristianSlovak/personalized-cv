@@ -44,7 +44,7 @@ function App() {
           <div className="main-project">
             <div className="img-div">
               <a
-                href="https://kristianslovak.github.io/Personalized-CV/"
+                href="https://personalized-cv.vercel.app/"
                 rel="noreferrer"
                 target="_blank"
               >
