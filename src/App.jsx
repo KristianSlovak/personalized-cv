@@ -10,19 +10,20 @@ function App() {
       <div className="border-wrap"></div>
       <NavBar />
       <div className="introduction">
-        <h1>Hello 👋</h1>
-        <h1>I'm Kristián Slovák - curious</h1>
-        <h1>designer and developer</h1>
-        <h1>based in Piešťany, Slovakia</h1>
+        <h1 className="introduction-h1">Hello 👋</h1>
+        <h1 className="introduction-h1">I'm Kristián Slovák - curious</h1>
+        <h1 className="introduction-h1">designer and developer</h1>
+        <h1 className="introduction-h1">based in Piešťany, Slovakia</h1>
       </div>
       <Contact />
+      <h1 className="project-h1">Projects</h1>
       <div className="projects">
-        <h1>Projects</h1>
+        <Projects />
         <Projects />
       </div>
       <div className="about-section">
-        <h2>About</h2>
-        <p>
+        <h1 className="about-h1">About</h1>
+        <p className="about-p">
           Before becoming a Green Fox Academy student, I worked in a pet shop
           warehouse. I sought to change careers because I did not see a way for
           my personal and career growth. I have always enjoyed working with
