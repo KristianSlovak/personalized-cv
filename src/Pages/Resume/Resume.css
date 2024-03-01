@@ -1,0 +1,204 @@
+.wrapper{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5rem;
+}
+
+.containerWrapper {
+    margin-top: 5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.resumeContainer {
+    width: 100%;
+    background-color: rgb(100 116 139);
+    max-width: 56rem;
+    padding: 5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+}
+
+.nameH1 {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    font-weight: 700;
+}
+
+.introductionH2 {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    margin-top: 1.25rem;
+}
+
+.introductionP {
+    width: 60%;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    opacity: 50%;
+}
+
+.contactComponent {
+    margin-top: 0.5rem;
+}
+
+.experienceDiv {
+    margin-top: 1.25rem;
+}
+
+.experienceH1 {
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    font-weight: 700;
+}
+
+.experience {
+    margin-top: 1.25rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.experienceSection1{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    width: 40%;
+}
+
+.fullTime {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    opacity: 50%;
+}
+
+.experienceSection2 {
+    width: 60%;
+}
+
+.companyName {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-weight: 700;
+}
+
+.responsibilitiesList {
+    list-style-type: disc
+}
+
+.responsibility {
+    opacity: 70%;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+
+.educationContainer {
+    margin-top: 1.25rem;
+}
+
+.educationH1 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font: 700;
+}
+
+.schoolDiv {
+    margin-top: 0.5rem;
+}
+
+.schoolName {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+
+.educationDuration {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    opacity: 75%;
+}
+
+.schoolTeachings {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    margin-top: 0.5rem;
+    opacity: 60%;
+}
+
+.skillsSection {
+    margin-top: 1.25rem;
+}
+
+.skillsH1 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font: 700;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skillTypes {
+    margin-top: 0.5rem;
+}
+
+.skillType {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+
+.skillsList {
+    list-style-type: disc;
+    padding: 0;
+}
+
+.skill {
+    margin-left: 1.25rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+@media only screen and (max-width: 768px){
+
+    .skillTypes {
+        margin-top: 1.25rem;
+    }
+
+    .skills {
+        flex-direction: column;
+    }
+
+    .resumeContainer{
+        padding: 1.25rem;
+    }
+
+    .experienceSection{
+        display: flex;
+        flex-direction: column;
+    }
+    
+
+}
+
+@media only screen and (min-width: 1024px){
+
+    .resumeContainer{
+        padding: 5rem;
+    }
+
+    .skills {
+        flex-direction: row;
+    }
+
+    .experienceSection {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+
+
+.resumeIntroduction{}
