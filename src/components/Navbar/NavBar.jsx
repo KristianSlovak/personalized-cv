@@ -16,7 +16,7 @@ function NavBar() {
         <a className="page-link" name="About" href="#about">
           About
         </a>
-        <a className="page-link" name="Resume" href="#top">
+        <a className="page-link" name="Resume" href="/resume">
           Resume
         </a>
         <a className="page-link" name="Contact" href="#contact">
